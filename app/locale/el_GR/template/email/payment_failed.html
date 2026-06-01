@@ -16,50 +16,50 @@
 <table>
     <thead>
     <tr>
-        <th>Payment transaction failed.</th>
+        <th>Η συναλλαγή πληρωμής απέτυχε.</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <td>
             <p>
-                <b>Reason</b><br />
+                <b>Λόγος</b><br>
                 {{var reason}}
             </p>
             <p>
-                <b>Checkout Type</b><br />
+                <b>Τύπος Ολοκλήρωσης Παραγγελίας</b><br>
                 {{var checkoutType}}
             </p>
             <p>
-                <b>Customer:</b><br />
+                <b>Πελάτης:</b><br>
                 <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
             </p>
             <p>
-                <b>Items</b><br />
+                <b>Αντικείμενα</b><br>
                 {{var items}}
             </p>
             <p>
-                <b>Total:</b><br />
+                <b>Σύνολο:</b><br>
                 {{var total}}
             </p>
             <p>
-                <b>Billing Address:</b><br />
+                <b>Διεύθυνση Χρέωσης:</b><br>
                 {{var billingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Address:</b><br />
+                <b>Διεύθυνση Αποστολής:</b><br>
                 {{var shippingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Method:</b><br />
+                <b>Μέθοδος Αποστολής:</b><br>
                 {{var shippingMethod}}
             </p>
             <p>
-                <b>Payment Method:</b><br />
+                <b>Μέθοδος Πληρωμής:</b><br>
                 {{var paymentMethod}}
             </p>
             <p>
-                <b>Date & Time:</b><br />
+                <b>Ημερομηνία & Ώρα:</b><br>
                 {{var dateAndTime}}
             </p>
         </td>
